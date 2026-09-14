@@ -1,0 +1,6 @@
+.git
+.claude
+.harness-mem
+Dockerfile
+.dockerignore
+compose.yaml
