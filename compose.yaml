@@ -1,7 +1,12 @@
 services:
-  web:
+  aiseda-static:
     build: .
-    image: aiseda-static
-    ports:
-      - "8080:80"
     restart: unless-stopped
+    expose:
+      - "80"
+    networks:
+      - dokploy-network
+
+networks:
+  dokploy-network:
+    external: true
