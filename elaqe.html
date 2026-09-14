@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Əlaqə — AISEDA</title>
+<meta name="description" content="AISEDA ilə əlaqə: e-poçt, telefon, ünvan və əlaqə forması.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="index.html" aria-label="AISEDA ana səhifə">
+      <svg viewBox="0 0 34 34" aria-hidden="true"><rect x="2" y="2" width="30" height="30" fill="#123A3C"/><path d="M17 6 28 17 17 28 6 17Z" fill="#E6D9BF"/><path d="M17 11 23 17 17 23 11 17Z" fill="#B7322C"/></svg>
+      AISEDA
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu">Menyu</button>
+    <ul id="menu"><li><a href="haqqimizda.html">Haqqımızda</a></li><li><a href="fealiyyet.html">Fəaliyyət</a></li><li><a href="tedbirler.html">Tədbirlər</a></li><li><a href="nesrler.html">Nəşrlər</a></li><li><a href="emekdasliq.html">Əməkdaşlıq</a></li><li><a href="elaqe.html" aria-current="page">Əlaqə</a></li></ul>
+    <a class="btn" href="elaqe.html">Bizə yazın</a>
+  </div>
+</header>
+<main id="top">
+<section class="page-head" style="padding:64px 0 48px">
+  <div class="wrap"><div class="crumbs"><a href="index.html">Ana səhifə</a> / Əlaqə</div><h1>Əlaqə</h1><p>Sual, təklif və ya tədbirə qeydiyyat üçün bizə yazın.</p></div>
+</section>
+<section class="contact" style="padding-top:56px">
+  <div class="wrap row">
+    <div>
+      <dl style="margin-top:0">
+        <dt>E-poçt</dt><dd><a href="mailto:info@aiseda.org.az">info@aiseda.org.az</a></dd>
+        <dt>Telefon</dt><dd><a href="tel:+994993247332">+994 99 324 73 32</a></dd>
+        <dt>Ünvan</dt><dd>AZ7000, Naxçıvan şəhəri, Naxçıvan Muxtar Respublikası, Azərbaycan</dd>
+        <dt>Veb sayt</dt><dd>aiseda.org.az</dd>
+        <dt>İş saatları</dt><dd>Bazar ertəsi – cümə, 09:00–18:00</dd>
+      </dl>
+      <div class="aside" style="margin-top:36px">
+        <h3>Nə üçün yaza bilərsiniz</h3>
+        <p>Tədbirə qeydiyyat · Tərəfdaşlıq təklifi · Məqalə göndərilməsi · Nəşrlərin əldə edilməsi · Media sorğuları</p>
+      </div>
+    </div>
+    <form id="cf" novalidate>
+      <label>Ad, soyad <input type="text" name="name" required></label>
+      <label>E-poçt <input type="email" name="email" required></label>
+      <label>Mövzu <input type="text" name="subject" placeholder="Tədbir, layihə, nəşr…"></label>
+      <label>Mesaj <textarea name="message" required></textarea></label>
+      <button class="btn" type="submit">Mesajı göndər</button>
+      <div class="sent" id="sent">Mesajınız göndərildi. Tezliklə sizinlə əlaqə saxlayacağıq.</div>
+    </form>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div>© 2026 “Beynəlxalq Elm və Təhsil İdarəçiləri Assosiasiyası” İctimai Birliyi (AISEDA). Naxçıvan, Azərbaycan · <a href="mailto:info@aiseda.org.az">info@aiseda.org.az</a></div>
+    <nav aria-label="Alt menyu">
+      <a href="haqqimizda.html">Haqqımızda</a>
+      <a href="tedbirler.html">Tədbirlər</a>
+      <a href="nesrler.html">Nəşrlər</a>
+      <a href="elaqe.html">Əlaqə</a>
+    </nav>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
